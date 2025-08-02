@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Hotel_Management.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="Styles/MasterStyle.css" />
+    
+   
+</head>
+<body>
+    <header id="Header" runat="server">
+        <div>
+        <img src="images/icon.png" alt="Logo" width="50px" height="50px" />  
+        <p>HOTEL MANAGEMENT SYSTEM</p>
+        </div>
+    </header>
+        <nav runat="server" id="navbar">
+        <a runat="server" id="home" href="Home.aspx">HOME</a>
+        <a runat="server" id="login" href="LoginForm.aspx">LOGIN</a>
+        <a runat="server" id="reg" href="Registration.aspx">REGISTER</a>
+        <a runat="server" id="dash" href="DashBoard.aspx">DASHBOARD</a>   
+        <a runat="server" id="room" href="HotelReg.aspx">BOOK ROOM</a>
+        <a runat="server" id="booked" href="HotelDetails.aspx">BOOKED ROOMS</a>
+        </nav>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    <footer>
+        <p>This is a ASP.NET Project named 'HOTEL MANAGEMENT' developed by 'Abhishek Rajput'  |  [ © All Rights reserved by Naresh IT ].</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,92 @@
+﻿
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+        background-color:dodgerblue;
+        border-radius:20px;
+        
+    }
+
+    14% {
+        transform: scale(1.3);
+    }
+
+    28% {
+        transform: scale(1);
+    }
+
+    42% {
+        transform: scale(1.15);
+    }
+
+    70% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+body {
+    background-color:black;
+    color:aqua;
+    margin:0px;
+    margin-bottom:100px;
+}
+header {
+    background: linear-gradient(to right,aqua,blue);
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+header div p{
+    display:inline-block;
+    font-weight:bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    header div img {
+        animation: heartbeat  1.5s 1s infinite normal ease-out;
+    }
+
+    header div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2%;
+        font-family: Bahnschrift;           
+    }
+nav{
+    font-family:'Comic Sans MS';
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    background-color:mediumslateblue;
+    margin: 10px 30px;
+    border-radius:100px;
+    padding:0.45% 0px;
+    position:sticky;
+    top:2px;
+}
+a{
+    text-decoration:none;
+    font-weight:bold;
+}
+    a:hover {
+        color:violet;
+        transform: translateY(-8px);
+        transition: all 400ms ease-out;
+        
+    }
+
+footer{
+    background-color: lavender;
+    color:darkcyan;
+    padding:0px;
+    width:100%;
+    margin:0px;
+    text-align:center;
+    position:fixed;
+    bottom:2px;
+    
+}

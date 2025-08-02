@@ -1,0 +1,92 @@
+﻿h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 76, 255, 0.281);
+    color: lavender;
+    margin-bottom: 3%;
+    font-family: 'Viner Hand ITC';
+    box-shadow: 5px 5px 5px blue;
+}
+
+
+.txtbx {
+    background: none;
+    border: none;
+    background-color: rgba(78, 54, 234, 0.272);
+    padding: 10px 15px;
+    color: mediumslateblue;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Comic Sans MS';
+}
+    .txtbx:focus {
+        background: transparent;
+        border: none;
+        background-color: rgba(78, 54, 234, 0.172);
+        padding: 10px 15px;
+        outline: none;
+    }
+
+#regform {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 5%;
+    border: none;
+    border-radius: 10px;
+    font-family: Bahnschrift;
+    box-shadow: 1px 1px 3px slateblue;
+    background-color: rgba(105, 90, 205, 0.272);
+}
+
+.btn {
+    padding: 2%;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    background-color: mediumslateblue;
+    color: indigo;
+    font-family: 'Cascadia Code';
+    font-size: large;
+}
+
+    .btn:hover {
+        background-color: darkslateblue;
+        color: slateblue;
+        transform:scale(1.05);
+        transition:all 600ms ease-out;
+        
+    }
+    .lbl{
+        font-family:'Lucida Handwriting';
+        font-size:small;
+        color:slateblue;
+        
+    }
+.genderCntr {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    border: none;
+    background-color: rgba(78, 54, 234, 0.272);
+    padding: 10px 15px;
+    color: mediumslateblue;
+    border-radius: 20px;
+    justify-content:flex-start;
+    gap:50px;
+}
+
+#chck{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+#chck div{
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+width:10%;
+gap:10px;
+}

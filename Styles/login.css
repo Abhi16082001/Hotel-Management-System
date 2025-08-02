@@ -1,0 +1,61 @@
+﻿#lgfrm {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 5%;
+    border: 2px solid teal;
+    border-radius: 10px;
+    font-family: Bahnschrift;
+    box-shadow: 5px 5px 5px 3px teal;
+    background-color: rgba(0, 128, 128, 0.317);
+}
+
+.txtbx {
+    background: none;
+    background-color: transparent;
+    padding: 10px 10px;
+    border: none;
+    border-bottom: 3px cyan solid;
+    color: darkcyan;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Comic Sans MS';
+}
+
+    .txtbx:focus {
+        background: transparent;
+        background-color: transparent;
+        border: none;
+        border-bottom: 3px cyan solid;
+        outline: none;
+    }
+
+.btn {
+    padding: 4%;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    background-color: lightblue;
+    color: darkcyan;
+    font-family: 'Cascadia Code';
+    font-size: large;
+}
+
+    .btn:hover {
+        background-color: rgba(0, 255, 255, 0.5);
+        color: aqua;
+        transform: scale(1.05);
+        transition: all 600ms ease-out;
+    }
+
+#LoginPage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 76, 255, 0.281);
+    color: lavender;
+    margin-bottom: 3%;
+    font-family: 'Viner Hand ITC';
+    box-shadow: 5px 5px 5px blue;
+}

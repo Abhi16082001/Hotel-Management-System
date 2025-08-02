@@ -1,0 +1,40 @@
+﻿.gv {
+    margin: auto;
+    font-size: 14px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px blue;
+}
+#welcome {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 76, 255, 0.281);
+    color: lavender;
+    margin-bottom: 3%;
+    font-family: 'Viner Hand ITC';
+    box-shadow: 5px 5px 5px blue;
+}
+.repeater {
+    background: linear-gradient(to right, lightyellow, lightcyan);
+    width:19.5%;
+    padding:2%;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    color:slateblue;
+    font-family:'Comic Sans MS';
+    border-radius:15px;
+
+}
+.repeater div{
+    border-bottom: 2px slateblue solid;
+}
+.rcont{
+    display:flex;
+    flex-direction:row;    
+    gap:20px;
+    flex-wrap:wrap;
+    margin:2%;
+    
+}

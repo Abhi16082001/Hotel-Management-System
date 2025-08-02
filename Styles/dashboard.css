@@ -1,0 +1,50 @@
+﻿.wlcm {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 76, 255, 0.281);
+    color: lavender;
+    margin-bottom: 3%;
+    font-family: 'Viner Hand ITC';
+    box-shadow: 5px 5px 5px blue;
+}
+.lblwel{
+    margin:auto;
+}
+.lbl{
+
+}
+.dash {
+    width: 60%;
+    margin: auto;
+    background:linear-gradient(to right, lightgreen,lightyellow) ;
+    padding: 3%;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-bottom: 2%;
+    color:darkblue;
+   
+
+}
+    .dash div {
+        border-bottom: 2px solid lightseagreen;
+    }
+.lbl {
+    padding:1%;
+    display:inline-block;
+    width:30%;
+    font-family:Rockwell;
+}
+.value {
+    font-family: 'Comic Sans MS';
+}
+.gv{
+    margin:auto;
+    font-size:14px;
+    border-radius:5px;
+    box-shadow:5px 5px 5px teal;
+}

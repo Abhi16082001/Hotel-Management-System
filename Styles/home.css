@@ -1,0 +1,80 @@
+﻿#welcome {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 76, 255, 0.281);
+    color: lavender;
+    margin-bottom: 3%;
+    font-family: 'Viner Hand ITC';
+    box-shadow: 5px 5px 5px blue;
+}
+#lgfrm{
+    width:30%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    padding: 1% 5%;
+    border:2px solid cyan;
+    border-radius:10px;
+    font-family:Bahnschrift;
+/*    box-shadow:  5px 5px 5px lightcyan;*/
+}
+.txtbx {
+    background: none;
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+    border-bottom: 3px cyan solid;
+    color: aqua;
+    font-size: 16px;
+    font-family: 'Comic Sans MS';
+}
+    .txtbx:focus {
+        background: transparent;
+        background-color: transparent;
+        border: none;
+        border-bottom: 3px cyan solid;
+        outline:none;
+    }
+.btn {
+    padding: 3.5%;
+    background: none;
+    border: 2px solid cyan;
+    border-radius: 50px;
+    background-color: rgba(0, 255, 255, 0.281);
+    color: cyan;
+    font-family: 'Cascadia Code';
+}
+    .btn:hover {
+        background-color: rgba(0, 255, 255, 0.5);
+        color: aqua;
+        transform: scale(1.05);
+        transition: all 600ms ease-out;
+    }
+.reg {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    width: 70%;
+    background-color: rgba(46, 97, 139, 0.505);
+    padding: 1%;
+    border-radius: 15px;
+    font-family: 'Viner Hand ITC';
+}
+.btnreg {
+    width: 20%;
+    margin: auto;
+    padding: 1.5%;
+    border: none;
+    border-radius: 50px;
+    background-color: lightblue;
+    color: darkblue;
+    font-family: 'Cascadia Code';
+}
+    .btnreg:hover {
+        background-color: skyblue;
+        transform: scale(1.05);
+        transition: all 600ms ease-out;
+    }

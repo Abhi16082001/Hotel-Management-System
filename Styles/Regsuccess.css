@@ -1,0 +1,45 @@
+﻿.regsuc {
+    background: linear-gradient(to right, lightseagreen, lightgreen);
+    width:60%;
+    margin:auto;
+    border-radius:20px;
+    padding:3%;
+    margin-top:3%;
+    color:forestgreen;
+    font-weight:bold;
+    font-size:x-large;
+    font-family:Cooper;
+}
+
+p{
+    
+}
+.btn {
+    padding: 2%;
+    background: none;
+    border:none;
+    border-radius: 5px;
+    background-color: lightcoral;
+    color: plum;
+    box-shadow: 1px 1px 3px red;
+    font-family:'Cascadia Code';
+    font-size:large;
+}
+
+    .btn:hover {
+        background-color: plum;
+        color: lightcoral;
+        transform: scale(1.05);
+        transition: all 600ms ease-out;
+    }
+.welcome {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 76, 255, 0.281);
+    color: lavender;
+    margin-bottom: 3%;
+    font-family: 'Viner Hand ITC';
+    box-shadow: 5px 5px 5px blue;
+}
