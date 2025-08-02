@@ -35,6 +35,9 @@ publish/
 *.pubxml
 *.publishproj
 
+#Web.config containing real connection string
+Web.config
+
 # IIS Express (used in Web Forms debugging)
 .vs/config/applicationhost.config
 
