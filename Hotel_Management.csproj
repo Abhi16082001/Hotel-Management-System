@@ -74,6 +74,22 @@
     <Content Include="HotelReg.aspx" />
     <Content Include="images\icon.png" />
     <Content Include="LoginForm.aspx" />
+    <Content Include="Outputs_Screenshots\AllBookedRooms.jpg" />
+    <Content Include="Outputs_Screenshots\AllBookedRoomsByLoggedInUser.jpg" />
+    <Content Include="Outputs_Screenshots\BookedRoomSuccess.jpg" />
+    <Content Include="Outputs_Screenshots\BookingRoom.jpg" />
+    <Content Include="Outputs_Screenshots\BookRoompage.jpg" />
+    <Content Include="Outputs_Screenshots\Dashboard2page.jpg" />
+    <Content Include="Outputs_Screenshots\DashboardPage.jpg" />
+    <Content Include="Outputs_Screenshots\HomePage.jpg" />
+    <Content Include="Outputs_Screenshots\LoggingIN.jpg" />
+    <Content Include="Outputs_Screenshots\LoginPage.jpg" />
+    <Content Include="Outputs_Screenshots\Register1page.jpg" />
+    <Content Include="Outputs_Screenshots\Register2page.jpg" />
+    <Content Include="Outputs_Screenshots\Register3page.jpg" />
+    <Content Include="Outputs_Screenshots\RegisteringUser.jpg" />
+    <Content Include="Outputs_Screenshots\RegisteringUser2.jpg" />
+    <Content Include="Outputs_Screenshots\RegistrationSuccess.jpg" />
     <Content Include="Registration.aspx" />
     <Content Include="RegSuccess.aspx" />
     <Content Include="Styles\booked.css" />
@@ -157,9 +173,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Outputs_Screenshots\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
