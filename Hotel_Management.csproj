@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="DashBoard.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="HotelDetails.aspx" />
@@ -147,6 +148,8 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
+    <Content Include="README.md" />
+    <Content Include="Web.config.template" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
