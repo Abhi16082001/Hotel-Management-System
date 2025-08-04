@@ -13,7 +13,7 @@ This project allows users to register, log in, book rooms, view their bookings, 
 - **Room Booking** – Book available rooms directly from the application.
 - **View Booked Rooms** – See your current and past bookings.
 - **Dashboard** – Overview of activities for users 
-- **GridView Integration** – Displays a list of all registered users and booked rooms in tabular form.
+- **GridView Integration** – Displays a list of all registered users and booked rooms in tabular form with Paging.
 
 ---
 

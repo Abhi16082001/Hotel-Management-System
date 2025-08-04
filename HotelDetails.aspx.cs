@@ -155,5 +155,11 @@ namespace Hotel_Management
             RmDtls.EditIndex = -1;
             FetchRooms();
         }
+
+        protected void RmDtls_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            RmDtls.PageIndex = e.NewPageIndex;
+            FetchRooms();
+        }
     }
 }
