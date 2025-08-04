@@ -43,8 +43,12 @@
     font-family: 'Comic Sans MS';
 }
 .gv{
-    margin:auto;
-    font-size:14px;
-    border-radius:5px;
+    font-size:13px;
     box-shadow:5px 5px 5px teal;
+    margin: auto 20px;
+
+}
+.pager a {
+    margin: 0px 10px;
+    text-decoration: underline;
 }

@@ -38,15 +38,15 @@
     margin:2%;
     
 }
-.pager {
-    margin: 0px 5px;
-    text-decoration: none;
-    color: #007bff;
-    text-align:center;
-    display:flex;
-    flex-direction:row;
-    width:430%;
-    justify-content:space-around;
-    border-radius:10px;
-    padding:0px;
+.pager a{
+    margin:0px 10px;
+    text-decoration:underline;
 }
+.pager {
+    display: flex;
+    flex-direction: row;
+    width: 430%;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
